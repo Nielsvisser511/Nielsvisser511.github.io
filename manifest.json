@@ -1,0 +1,11 @@
+{
+  "id": "trakt-tracker",
+  "name": "Trakt Tracker",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Track movies and TV series using Trakt.tv API integration. Search, mark as watched, and create detailed notes for your viewing history.",
+  "author": "Niels Visser",
+  "authorUrl": "https://vinser.me",
+  "fundingUrl": "https://github.com/Nielsvisser511/Nielsvisser511.github.io",
+  "isDesktopOnly": false
+}
