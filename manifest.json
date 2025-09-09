@@ -1,0 +1,11 @@
+{
+	"id": "trakt-integration",
+	"name": "Trakt Integration",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Integrate with Trakt to track and manage your TV shows and movies directly from Obsidian",
+	"author": "Nielsvisser511",
+	"authorUrl": "https://vinser.me",
+	"fundingUrl": "https://github.com/Nielsvisser511/Nielsvisser511.github.io",
+	"isDesktopOnly": false
+}

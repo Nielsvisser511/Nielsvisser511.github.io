@@ -1,0 +1,94 @@
+/* Trakt Integration Plugin Styles */
+
+.trakt-integration-ribbon-class {
+    color: var(--interactive-accent);
+}
+
+.trakt-search-result {
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+.trakt-search-result:hover {
+    border-color: var(--interactive-accent);
+    background: var(--background-secondary-alt);
+}
+
+.trakt-search-result h3 {
+    margin: 0 0 8px 0;
+    color: var(--text-normal);
+    font-size: 1.1em;
+}
+
+.trakt-search-result p {
+    margin: 0 0 8px 0;
+    color: var(--text-muted);
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.trakt-search-result button {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.trakt-search-result button:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.trakt-search-result button:disabled {
+    background: var(--background-modifier-border);
+    color: var(--text-muted);
+    cursor: not-allowed;
+}
+
+.trakt-search-modal .modal-content {
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.trakt-search-modal input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 14px;
+}
+
+.trakt-search-modal input[type="text"]:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+}
+
+.trakt-search-modal button {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.trakt-search-modal button:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.trakt-search-modal button:disabled {
+    background: var(--background-modifier-border);
+    color: var(--text-muted);
+    cursor: not-allowed;
+}
